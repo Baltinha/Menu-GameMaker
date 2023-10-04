@@ -8,6 +8,7 @@ var margin = 45;
 var m_x = device_mouse_x_to_gui(0);
 var m_y = device_mouse_y_to_gui(0);
 
+//fala onde deverar ser colocado as palavras na tela
 draw_set_font(ft_menu);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
