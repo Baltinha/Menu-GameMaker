@@ -1,4 +1,4 @@
-//Aqui ira congigurar o volume do som de acordo com a hud
+//Aqui ira configurar o volume do som de acordo com o escolhido na hud
 /*if(volumeAtual != volume)
 {
 	volumeAtual = volume;
