@@ -16,5 +16,12 @@
     {"name":"Extensões","order":14,"path":"folders/Extensões.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"rm_sair","order":3,"path":"rooms/rm_sair/rm_sair.yy",},
+    {"name":"rm_gameplay","order":1,"path":"rooms/rm_gameplay/rm_gameplay.yy",},
+    {"name":"rm_configuracoes","order":2,"path":"rooms/rm_configuracoes/rm_configuracoes.yy",},
+    {"name":"obj_sair","order":3,"path":"objects/obj_sair/obj_sair.yy",},
+    {"name":"obj_menu","order":1,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"obj_configuracoes","order":2,"path":"objects/obj_configuracoes/obj_configuracoes.yy",},
+  ],
 }

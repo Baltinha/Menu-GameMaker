@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Conjuntos de tiles","folderPath":"folders/Conjuntos de tiles.yy",},
@@ -34,10 +34,20 @@
     "IDEVersion": "2023.8.1.102",
   },
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_sair","path":"rooms/rm_sair/rm_sair.yy",},},
+    {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"id":{"name":"rm_configuracoes","path":"rooms/rm_configuracoes/rm_configuracoes.yy",},},
+    {"id":{"name":"obj_sair","path":"objects/obj_sair/obj_sair.yy",},},
+    {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"obj_configuracoes","path":"objects/obj_configuracoes/obj_configuracoes.yy",},},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"roomId":{"name":"rm_configuracoes","path":"rooms/rm_configuracoes/rm_configuracoes.yy",},},
+    {"roomId":{"name":"rm_sair","path":"rooms/rm_sair/rm_sair.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
