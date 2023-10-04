@@ -1,8 +1,9 @@
-index++;
+//passar pelas opções do menu de configurações 
+indexConfig++;
 
-if(index > op_max -1)
+if(indexConfig > op_maxConfig -1)
 {
-	index = 0;
+	indexConfig = 0;
 }
 
 

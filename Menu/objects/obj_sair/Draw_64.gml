@@ -35,13 +35,8 @@ for(var i = 0;i < op_max; i++)
 	draw_text(x1,y2+20,opcoes[i]);
 }
 draw_set_color(c_white);
-draw_text(x1,y2-70,sair);
+draw_text(x1,y1-70,sair);
 
 draw_set_font(-1);
 draw_set_font(-1);
 draw_set_font(-1);
-
-function desenhar()
-{
-
-}

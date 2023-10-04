@@ -12,17 +12,19 @@ draw_set_font(ft_menu);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 
-for(var i = 0;i < op_max; i++)
+
+for(var i = 0;i < op_maxConfig; i++)
 {
 	var y2 = y1 +(margin * i);
-	var string_w = string_width(opcoes[i]);
-	var string_h = string_height(opcoes[i]);
+	var string_w = string_width(opcoesConfig[i]);
+	var string_h = string_height(opcoesConfig[i]);
 	
 	//onde o mouse esta
-	if(point_in_rectangle(m_x,m_y,x1 - string_w / 2, y2 - string_h /2 ,x1 + string_w /2, y2 + string_h /2) || index == i)
+	if(point_in_rectangle(m_x,m_y,x1 - string_w / 2, y2 - string_h /2 ,x1 + string_w /2, y2 + string_h /2) || indexConfig == i)
 	{
+
 		//muda  a cor da palavra e reseta onde ela esta selecionada
-		index = i;
+		indexConfig = i;
 		draw_set_color(c_red);
 
 	}
@@ -32,12 +34,13 @@ for(var i = 0;i < op_max; i++)
 	}		
 	
 	//desenha as palavras no centro da tela
-	draw_text(x1,y2,opcoes[i]);
+	draw_text(x1,y2,opcoesConfig[i]);
 }
+
+
 //resetar para poder ser desenhado denovo
 draw_set_font(-1);
-draw_set_font(-1);
-draw_set_font(-1);
+
 
 
 

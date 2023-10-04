@@ -1,4 +1,5 @@
-opcoes = ["Volume","Tela Cheia","Voltar"];
-index = 0;
-op_max = array_length(opcoes);
+//variaveis para movimentar pelo menu
+opcoesConfig = ["Volume","Tela Cheia","Voltar"];
+indexConfig = 0;
+op_maxConfig = array_length(opcoesConfig);
 t_cheia = window_get_fullscreen();

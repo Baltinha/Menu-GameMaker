@@ -24,7 +24,6 @@ for(var i = 0;i < op_max; i++)
 		//muda  a cor da palavra e reseta onde ela esta selecionada
 		index = i;
 		draw_set_color(c_red);
-
 	}
 	else
 	{
