@@ -33,10 +33,17 @@ for(var i = 0;i < op_max; i++)
 	//desenha as palavras no centro da tela
 	draw_text(x1,y2,opcoes[i]);
 }
+
+//mensagem de como confirmar a navegação e de como navegar 
+draw_set_font(ft_ajuda)
+draw_set_color(c_white);
+draw_text(1100,600,"Para confirmar sua navegação \nUsar Enter ou Mouse 1");
+draw_text(1100,650,"Para navegar \nUsar Setas do teclado ou Mouse");
+
 //resetar para poder ser desenhado denovo
 draw_set_font(-1);
 draw_set_font(-1);
-draw_set_font(-1);
+
 
 
 

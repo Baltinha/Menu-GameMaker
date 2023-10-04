@@ -21,6 +21,7 @@
     {"name":"rm_configuracoes","order":2,"path":"rooms/rm_configuracoes/rm_configuracoes.yy",},
     {"name":"obj_sair","order":3,"path":"objects/obj_sair/obj_sair.yy",},
     {"name":"obj_sprite","order":6,"path":"objects/obj_sprite/obj_sprite.yy",},
+    {"name":"ft_ajuda","order":1,"path":"fonts/ft_ajuda/ft_ajuda.yy",},
     {"name":"obj_menu","order":1,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"obj_volume","order":5,"path":"objects/obj_volume/obj_volume.yy",},
     {"name":"obj_configuracoes","order":2,"path":"objects/obj_configuracoes/obj_configuracoes.yy",},

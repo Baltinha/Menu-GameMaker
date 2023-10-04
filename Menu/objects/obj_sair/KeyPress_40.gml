@@ -1,8 +1,8 @@
-index++;
+index--;
 
-if(index > op_max -1)
+if(index < 0)
 {
-	index = 0;
+	index = op_max -1;
 }
 
 
